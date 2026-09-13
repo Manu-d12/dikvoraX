@@ -1,0 +1,491 @@
+Build a complete, modern, premium website for **DikvoraX**, a software and technology services company.
+
+## Tech Stack — Strict
+
+Use ONLY:
+
+* React
+* Vite
+* JavaScript
+* JSX
+* Material UI (MUI)
+
+**No TypeScript.**
+
+**This is a frontend-only project. Do NOT create or implement any backend.**
+
+Do not add:
+
+* Node.js backend
+* Express
+* Spring Boot
+* Database
+* REST API
+* API endpoints
+* Authentication
+* Backend form submission
+* Server-side code
+
+The contact form should work entirely on the frontend with validation and a success state. Structure the code cleanly so a real API could be connected later, but do not implement one.
+
+---
+
+# DikvoraX
+
+DikvoraX is a technology services company that builds digital products and custom software solutions for startups and businesses.
+
+Services:
+
+* Frontend Development
+* Backend Development
+* Website Development
+* Mobile App Development
+* AI-Based Solutions
+* Custom Software Development
+
+---
+
+# Website Structure
+
+Build a polished **single-page responsive website**.
+
+Sections:
+
+1. Navbar
+2. Hero
+3. Services
+4. Why DikvoraX
+5. Technologies
+6. Development Process
+7. CTA
+8. Contact
+9. Footer
+
+Use smooth scrolling between sections.
+
+---
+
+# 1. Navbar
+
+Create a responsive Material UI navbar.
+
+Include:
+
+**DikvoraX**
+
+Navigation:
+
+* Home
+* Services
+* Why Us
+* Process
+* Contact
+
+Add a prominent:
+
+**Let's Talk**
+
+button that scrolls to the Contact section.
+
+On mobile, use a Material UI menu/drawer.
+
+Make the navbar sticky while scrolling.
+
+---
+
+# 2. Hero Section
+
+Create a premium technology-focused hero section.
+
+Main heading:
+
+**Build Digital. Build Smarter.**
+
+Supporting text:
+
+**DikvoraX helps startups and businesses turn ideas into modern websites, applications, software platforms, and AI-powered solutions.**
+
+CTA buttons:
+
+**Start Your Project**
+
+**Explore Services**
+
+Add a visually interesting technology-inspired UI/illustration using CSS and Material UI components.
+
+Do not rely on external image URLs that may break.
+
+The hero should immediately communicate that DikvoraX is a software development company.
+
+---
+
+# 3. Services
+
+Heading:
+
+**What We Build**
+
+Subtitle:
+
+**From web experiences to intelligent software, we build solutions around your business needs.**
+
+Create six attractive Material UI cards.
+
+### Frontend Development
+
+Modern, responsive and high-performance user interfaces using React and modern JavaScript.
+
+### Backend Development
+
+Reliable APIs, business logic, databases and scalable backend systems.
+
+### Website Development
+
+Professional business websites, landing pages, e-commerce platforms and custom web applications.
+
+### Mobile App Development
+
+Modern mobile experiences for businesses, customers and internal teams.
+
+### AI-Based Solutions
+
+AI-powered applications, generative AI integrations, chatbots, automation and intelligent workflows.
+
+### Custom Software
+
+End-to-end software solutions designed around unique business requirements.
+
+Each card should have:
+
+* Material UI icon
+* Title
+* Description
+* Small Learn More style visual element
+* Hover animation
+
+---
+
+# 4. Why DikvoraX
+
+Heading:
+
+**Why Choose DikvoraX?**
+
+Create a visually strong section with six benefits:
+
+### Built Around Your Business
+
+We focus on your actual business requirements instead of forcing a generic solution.
+
+### Modern Technology
+
+We use modern development tools and technologies to create maintainable products.
+
+### Scalable Solutions
+
+Solutions are designed with future growth in mind.
+
+### Clean User Experience
+
+We focus on interfaces that are simple, intuitive and easy to use.
+
+### Transparent Communication
+
+Clear communication throughout the development process.
+
+### End-to-End Development
+
+From idea and UI to development, deployment and ongoing improvements.
+
+Use icons and clean cards rather than a boring bullet list.
+
+---
+
+# 5. Technologies
+
+Heading:
+
+**Technologies We Work With**
+
+Display technologies as attractive Material UI chips/cards.
+
+Include:
+
+* React
+* JavaScript
+* Java
+* Spring Boot
+* Node.js
+* MySQL
+* PostgreSQL
+* AWS
+* Docker
+* REST APIs
+* AI
+* LLMs
+
+Make this section visually clean and not overly large.
+
+---
+
+# 6. Development Process
+
+Heading:
+
+**How We Build**
+
+Create a modern 4-step timeline/process.
+
+### 01 — Understand
+
+We understand your idea, business and requirements.
+
+### 02 — Plan
+
+We define the solution, architecture and development approach.
+
+### 03 — Build
+
+We design and develop the product with regular feedback.
+
+### 04 — Launch
+
+We help get the solution ready for real users and future improvements.
+
+Make the process visually connected.
+
+---
+
+# 7. CTA
+
+Create a large premium CTA section.
+
+Heading:
+
+**Have an Idea? Let's Build It.**
+
+Text:
+
+**Whether you need a website, application, custom software or an AI-powered solution, let's turn your idea into something real.**
+
+Button:
+
+**Start a Conversation**
+
+The button should scroll to Contact.
+
+---
+
+# 8. Contact Form
+
+Create a beautiful contact section.
+
+Heading:
+
+**Let's Talk About Your Project**
+
+Subtitle:
+
+**Tell us what you're building and we'll get back to you.**
+
+Form fields:
+
+* Name
+* Email
+* Company / Business
+* Service
+* Project Details
+
+Service dropdown:
+
+* Frontend Development
+* Backend Development
+* Website Development
+* Mobile App Development
+* AI-Based Solution
+* Custom Software
+* Not Sure Yet
+
+Project Details should be a multiline text field.
+
+### Frontend-only behavior
+
+Implement:
+
+* Required field validation
+* Email validation
+* Helpful validation messages
+* Submit button loading state
+* Success message after submission
+* Reset form after successful submission
+
+Since there is NO backend, do not actually send the data anywhere.
+
+On submit, simulate a successful submission using a short timeout and display:
+
+**Thanks! Weve received your project details. Well get back to you soon.**
+
+Clearly keep the submission logic isolated in the component so a real API can easily be added in the future.
+
+Do NOT create any backend for this.
+
+---
+
+# 9. Footer
+
+Create a professional footer.
+
+Include:
+
+**DikvoraX**
+
+Short description:
+
+**Building modern digital experiences, software solutions and AI-powered products.**
+
+Links:
+
+* Home
+* Services
+* Why Us
+* Process
+* Contact
+
+Services:
+
+* Frontend Development
+* Backend Development
+* Website Development
+* Mobile Apps
+* AI Solutions
+* Custom Software
+
+Copyright:
+
+**© 2026 DikvoraX. All rights reserved.**
+
+---
+
+# Design Direction
+
+Make the website look like a **real modern software agency**, not a generic portfolio template.
+
+Design characteristics:
+
+* Premium
+* Modern
+* Minimal
+* Technology-focused
+* Professional
+* Startup-friendly
+* Strong typography
+* Excellent whitespace
+* Rounded cards
+* Subtle shadows
+* Smooth hover effects
+* Subtle animations
+* Responsive on all screen sizes
+
+Use Material UI's theme system consistently.
+
+Use a sophisticated dark/light technology aesthetic. Prefer a restrained color palette with one strong accent color.
+
+Avoid:
+
+* Excessive gradients
+* Excessive animations
+* Stock photos
+* Generic corporate imagery
+* Huge walls of text
+* Too many colors
+* Overly complicated UI
+
+---
+
+# UX Requirements
+
+Make the website responsive for:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+Ensure:
+
+* No horizontal scrolling
+* Buttons work
+* Navigation works
+* Smooth scrolling works
+* Contact form works
+* Mobile navigation works
+* All sections have appropriate spacing
+* Cards have consistent heights where appropriate
+* Typography scales properly
+
+Add subtle entrance animations using simple CSS/MUI transitions. Do not add an animation library unless absolutely necessary.
+
+---
+
+# Project Structure
+
+Keep the React project simple:
+
+src/
+components/
+Navbar.jsx
+Hero.jsx
+Services.jsx
+WhyUs.jsx
+Technologies.jsx
+Process.jsx
+CTA.jsx
+Contact.jsx
+Footer.jsx
+theme/
+theme.js
+App.jsx
+main.jsx
+
+You can adjust the structure if necessary, but keep it simple.
+
+Use functional React components and hooks only where needed.
+
+---
+
+# Important Restrictions
+
+This is a **frontend-only React Vite website**.
+
+Do NOT create:
+
+* Backend
+* API
+* Database
+* Express server
+* Spring Boot project
+* Node backend
+* Authentication
+* Payment integration
+
+The only functionality required is the frontend contact form simulation and UI interactions.
+
+---
+
+# Final Verification
+
+After building the website:
+
+1. Run the project.
+2. Check for compilation errors.
+3. Check all imports.
+4. Check responsive layout.
+5. Check navbar navigation.
+6. Check all CTA buttons.
+7. Check contact form validation.
+8. Check contact form success state.
+9. Make sure there is no backend code.
+10. Make sure the final result looks polished and production-ready.
+
+The final result should feel like a **real software development agency website for DikvoraX that could be shown to potential clients.**
+
